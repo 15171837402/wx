@@ -20,10 +20,6 @@ Page({
     //   })
     //   return
     // }
-    const db=wx.cloud.database()
-    db.collection("clip_users").get().then(res=>{
-      console.log(res);
-    })
 
     // if (wx.getUserProfile) {
     //   this.setData({
@@ -31,7 +27,12 @@ Page({
     //   })
     // }
   },
-
+  getTestMethod(){
+    const db=wx.cloud.database()
+    db.collection("clip_users").get().then(res=>{
+      console.log(res);
+    })
+  },
   getUserProfile() {
     // 推荐使用wx.getUserProfile获取用户信息，开发者每次通过该接口获取用户个人信息均需用户确认，开发者妥善保管用户快速填写的头像昵称，避免重复弹窗
     wx.getUserProfile({

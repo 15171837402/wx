@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-
+  <a class="weui-btn weui-btn_primary" bindtap="getTestMethod">页面主操作</a>
   <!-- 用户 openid -->可恶
 </view>
 

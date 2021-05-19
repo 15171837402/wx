@@ -52,13 +52,6 @@
     "game": {
       "list": []
     },
-    "packNpmManually": false,
-    "packNpmRelationList": [
-      {
-        "packageJsonPath": "./package.json",
-        "miniprogramNpmDistDir": "./node_modules"
-      }
-    ],
     "miniprogram": {
       "list": [
         {

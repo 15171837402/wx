@@ -1,8 +1,8 @@
 {
-  "name": "wx",
+  "name": "miniprogram",
   "version": "1.0.0",
-  "description": "这是云开发的快速启动指引，其中演示了如何上手使用云开发的三大基础能力：",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
     "weui-miniprogram": "^1.0.8"
   },
