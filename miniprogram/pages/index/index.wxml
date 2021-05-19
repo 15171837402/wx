@@ -1,7 +1,26 @@
 <!--index.wxml-->
 <view class="container">
-  <a class="weui-btn weui-btn_primary" bindtap="getTestMethod">页面主操作</a>
-  <!-- 用户 openid -->可恶
+  <a class="weui-btn weui-btn_primary" bindtap="addData">页面主操作</a>
+  <!-- 用户 openid -->
+  <view>
+    <view>热门</view>
+    <view>
+      <view>
+        <view class="weui-form__control-area">
+          <view class="weui-cells__group weui-cells__group_form">
+            <view class="weui-cells">
+              <a class="weui-cell weui-cell_access" wx:for="{{urlList}}">
+                <view class="weui-cell__bd">
+                  <view>{{item.title}}</view>
+                </view>
+                <view class="weui-cell__ft">
+                  <view style="color:blue">232ms</view>
+                </view>
+              </a>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
-
-
